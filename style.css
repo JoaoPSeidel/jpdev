@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Roboto+Mono:wght@200&display=swap');
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right, #F0F0C9, #caca5e);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(143, 111, 4, 0.443);
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-family: "Geologica";
+    color: #004C50;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 56, 59, 0.259);
+    margin-top: -20px;
+    padding: 10px;
+}
+
+h2{
+    font-family: "Roboto Mono";
+    font-weight: 700;
+    color: #00939C;
+    margin: 10px 0px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+u{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a > img.space{
+    margin-right: 2px;
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color:#004C50;
+    padding: 0px 4px;
+}
+
+a:visited{
+    color: rgb(126, 0, 180);
+}
+
+a:active{ 
+    color: #00939C;
+}
+
